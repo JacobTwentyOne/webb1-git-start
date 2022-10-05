@@ -1,0 +1,25 @@
+body{ 
+    color: purple;
+    background-color: blueviolet;
+    font-family: Impact;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
+    display: flex;
+    gap: 1rem;
+}
+
+.container {
+    max-width: 80ch;
+    margin-inline: auto;
+    
+
+}
